@@ -1,0 +1,107 @@
+### 1
+POST http://localhost:8080/api/posts
+Content-Type: application/json
+
+{
+  "title": "Pierwsze kroki w Javie",
+  "content": "Dowiedz się, jak zacząć naukę języka Java krok po kroku. Od instalacji JDK po pierwsze linie kodu."
+}
+
+### 2
+POST http://localhost:8080/api/posts
+Content-Type: application/json
+
+{
+  "title": "Dlaczego warto uczyć się Spring Boota?",
+  "content": "Spring Boot to jedno z najpotężniejszych narzędzi w świecie Javy. Pozwala szybko tworzyć aplikacje webowe."
+}
+
+### 3
+POST http://localhost:8080/api/posts
+Content-Type: application/json
+
+{
+  "title": "Co to jest REST API?",
+  "content": "REST API to sposób komunikacji między systemami. Dowiedz się, jak go używać w praktyce z Javą i Springiem."
+}
+
+### 4
+POST http://localhost:8080/api/posts
+Content-Type: application/json
+
+{
+  "title": "Hibernate vs JDBC",
+  "content": "Czym różni się Hibernate od surowego JDBC i kiedy warto używać którego rozwiązania?"
+}
+
+### 5
+POST http://localhost:8080/api/posts
+Content-Type: application/json
+
+{
+  "title": "Wzorce projektowe w Javie",
+  "content": "Poznaj najpopularniejsze wzorce projektowe jak Singleton, Factory, i ich zastosowanie w realnych projektach."
+}
+
+### 6
+POST http://localhost:8080/api/posts
+Content-Type: application/json
+
+{
+  "title": "Jak testować aplikacje w Javie?",
+  "content": "Unit testy, testy integracyjne, frameworki typu JUnit i Mockito – wszystko w jednym miejscu."
+}
+
+### 7
+POST http://localhost:8080/api/posts
+Content-Type: application/json
+
+{
+  "title": "Tworzenie prostego bloga – krok po kroku",
+  "content": "Zbuduj swój pierwszy blog w Spring Boot z bazą danych i frontendem w HTML/JS."
+}
+
+### 8
+POST http://localhost:8080/api/posts
+Content-Type: application/json
+
+{
+  "title": "Czym jest JSON i jak go używać?",
+  "content": "JSON to jeden z najczęstszych formatów wymiany danych. Naucz się jak go obsługiwać w Javie i JS."
+}
+
+### 9
+POST http://localhost:8080/api/posts
+Content-Type: application/json
+
+{
+  "title": "Zrozumieć relacyjne bazy danych",
+  "content": "Poznaj podstawy SQL, relacje między tabelami, klucze główne i obce."
+}
+
+### 10
+POST http://localhost:8080/api/posts
+Content-Type: application/json
+
+{
+  "title": "Jak działa Java Virtual Machine?",
+  "content": "Dowiedz się, jak JVM uruchamia Twój kod i dlaczego jest to tak ważne."
+}
+
+### 11
+POST http://localhost:8080/api/posts
+Content-Type: application/json
+
+{
+  "title": "CSS Grid vs Flexbox",
+  "content": "Które rozwiązanie wybrać przy tworzeniu layoutu? Porównanie obu technik z przykładami."
+}
+
+### 12
+POST http://localhost:8080/api/posts
+Content-Type: application/json
+
+{
+  "title": "Responsywność w praktyce",
+  "content": "Zobacz, jak stworzyć stronę, która dobrze wygląda na komputerze, tablecie i telefonie."
+}

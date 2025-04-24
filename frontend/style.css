@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+
+#form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#items{
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: 700px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+}
+#addButton{
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 20px;
+    background-color: white;
+    transition: 1s;
+    border: none;
+    margin-top: 20px;
+}
+#addButton:hover{
+    
+  
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#addButton::after{
+    transition: 1s;
+
+}
+textarea,input{
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border: none;
+}
+textarea
+{
+    width: 100%;
+    resize: none;
+}
+.btn{
+   
+    border: none;
+    background-color: white;
+    font-size: 50px;
+}
+#allPosts{
+    
+}
+#posts{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 10px;
+}
+.post{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 20px;
+}
+h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* RESPONSYWNOŚĆ NA TELEFONY I TABLETY */
+@media (max-width: 1024px) {
+    #posts {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    #posts {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    #items {
+      width: 90%;
+      height: auto;
+    }
+  
+    #addButton {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    header {
+      font-size: 24px;
+      height: auto;
+      padding: 10px 0;
+    }
+  
+    #posts {
+      grid-template-columns: 1fr;
+    }
+  
+    .post {
+      padding: 15px;
+      font-size: 16px;
+    }
+  
+    textarea, input {
+      font-size: 16px;
+    }
+  
+    #addButton {
+      font-size: 18px;
+      height: 40px;
+    }
+  
+    h3 {
+      font-size: 18px;
+    }
+  }
+  
